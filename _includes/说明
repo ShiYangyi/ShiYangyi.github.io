@@ -1,0 +1,1 @@
+这个文件夹用于存放重用的组件，通过{% include file.ext %}把_includes/file.ext文件包含进来。

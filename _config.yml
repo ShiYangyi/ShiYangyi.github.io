@@ -1,13 +1,14 @@
 # ---------------------------------------------------------------
+#配置文件，用于配置全局需要的变量或者一切其他命令配置
 # Jekyll & Global Configuration
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
 
-# Site
-title: NexT
-subtitle:
-description:
-author: John Doe
+# Site,基础配置，使用site.param引用文件内的相关信息
+title: 熊微笑的打怪升级日记
+subtitle:专业　沉稳　明亮　坚毅
+description:世界要你考取功名，但是真诚才是最大本领。
+author: syy
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'

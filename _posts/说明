@@ -1,0 +1,15 @@
+这个文件夹存放博客文章，文件格式要按照year-month-day_title.MARKUP的形式，title也要使用xx-xx的形式。
+在这个文件夹下添加新的博客文章，文章使用markdown编写或者textile格式编写。每篇文章开头需要添加YAML头信息，它们会将文章内容转换为HTML页面，结构如下：
+layout:post
+title:"如何搭建jeky11主题的github.io博客"
+subtitle:""
+author:"wml"
+header-img:"img/blog-build-1.png"
+header-mask:0.5
+tags:
+    - blog
+
+
+除了需要在每篇文章开头添加上述的YAML头信息之外，还要注意的是文章命名格式需要遵守：年-月-日-标题.MARKUP
+例如：2011-12-31-new-years-eve-is-awesome.md
+2012-09-12-how-to-write-a-blog.textile
